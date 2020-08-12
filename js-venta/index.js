@@ -39,23 +39,6 @@ const validarConincidenciaUsuario = () =>{
 
 
 
-    // db.collection("usuario").get().then(function(querySnapshot) {
-    //     querySnapshot.forEach(function(doc) {
-    //         misUsuariosArray.push(doc.data())
-    //     });
-    //     const coincidencia = misUsuariosArray.filter(x=>x.usuario == usuario.value.trim() && x.contrasenia == contra.value.trim())
-    //     if(coincidencia.length!=0){
-    //         document.cookie = "user =" + coincidencia[0].usuario
-    //         document.cookie = "nombreCompleto =" + coincidencia[0].nombreCompleto
-    //         window.location='dashboard.html'
-    //     }else{
-    //         loader.style.display='none'
-    //         ingre.style.display='block'
-    //         swal('ERROR','Credenciales incorrectas','error')
-    //     }
-    // });
-
-
 }
 
 document.getElementById('idForm').addEventListener('submit',(e)=>{
